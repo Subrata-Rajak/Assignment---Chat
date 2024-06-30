@@ -53,7 +53,7 @@ class _ChatRoomScreenState extends State<ChatRoomScreen> with CommonWidgets {
                     ),
                     horizontalSpace(width: 10),
                     Text(
-                      "${widget.chatRoomModel['userTwo.username']}",
+                      "${widget.chatRoomModel['userTwo.uid'] == _auth.currentUser!.uid ? widget.chatRoomModel['userOne.username'] : widget.chatRoomModel['userTwo.username']}",
                       style: const TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 20,
