@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "442487503135",
+    "project_id": "chat-cbada",
+    "storage_bucket": "chat-cbada.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442487503135:android:112d1ecad0b428a12c582a",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYuiacpOIhvjDza2sgHNoGIV2k5Z3g9HE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
